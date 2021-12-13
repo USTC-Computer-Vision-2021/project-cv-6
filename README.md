@@ -103,13 +103,15 @@ def stitch(imageA,imageB, ratio=0.75, reprojThresh=4.0):
 ## 工程结构
 .  
 ├─code  
-│&ensp&ensp&ensp&enspcv.py  
+│cv.py  
 │  
 ├─input  
-│&ensp&ensp&ensp&ensp1.jpg  
-│&ensp&ensp&ensp&ensp2.jpg  
+│1.jpg  
+│2.jpg  
 │  
 └─output  
-&ensp&ensp&ensp&ensp&enspresult.jpg  
+result.jpg  
 
 ## 运行说明
+python 3.9.5
+pip install opencv-python
