@@ -98,7 +98,7 @@ def stitch(imageA,imageB, ratio=0.75, reprojThresh=4.0):
 ````
 
 ## 效果展示
-![image](https://github.com/USTC-Computer-Vision-2021/project-cv-6/blob/main/result.jpg)
+![image](https://github.com/USTC-Computer-Vision-2021/project-cv-6/blob/main/output/result.jpg)
 
 ## 工程结构
 .  
