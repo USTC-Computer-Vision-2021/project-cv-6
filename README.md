@@ -101,15 +101,15 @@ def stitch(imageA,imageB, ratio=0.75, reprojThresh=4.0):
 ![image](https://github.com/USTC-Computer-Vision-2021/project-cv-6/blob/main/result.jpg)
 
 ## 工程结构
-.
-├─code
-│      cv.py
-│
-├─input
-│      1.jpg
-│      2.jpg
-│
-└─output
-        result.jpg
+.  
+├─code  
+│&ensp&ensp&ensp&enspcv.py  
+│  
+├─input  
+│&ensp&ensp&ensp&ensp1.jpg  
+│&ensp&ensp&ensp&ensp2.jpg  
+│  
+└─output  
+&ensp&ensp&ensp&ensp&enspresult.jpg  
 
 ## 运行说明
