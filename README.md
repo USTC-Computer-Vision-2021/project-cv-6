@@ -1,10 +1,10 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=6404706&assignment_repo_type=AssignmentRepo)
 # 基于图像拼接的 A Look Into the Past
 成员及分工
->PB18000083 王文灏
->编程,写报告
->PB18000049 周振
->调研,设计
+>PB18000083 王文灏  
+>编程,写报告  
+>PB18000049 周振  
+>调研,设计  
 
 ## 问题描述
 >通过图像拼接可以将一张老照片与一张现代照片拼接在一起,展示一些历经百年沧桑仍未发生变化的风景
