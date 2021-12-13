@@ -92,6 +92,7 @@ def stitch(imageA,imageB, ratio=0.75, reprojThresh=4.0):
     result = cv2.warpPerspective(imageA, H, (imageA.shape[1] + imageB.shape[1], imageA.shape[0]))    # 将图片A进行视角变换，result是变换后图片
     cv_show('result', result)
     result[0:imageB.shape[0], 0:imageB.shape[1]] = imageB    # 将图片B传入result图片最左端
+    cv2.imwrite('../output/result.jpg', result)
     cv_show('result', result)
     return result
 ````
@@ -100,12 +101,15 @@ def stitch(imageA,imageB, ratio=0.75, reprojThresh=4.0):
 ![image](https://github.com/USTC-Computer-Vision-2021/project-cv-6/blob/main/result.jpg)
 
 ## 工程结构
-.  
-|--code  
-|    ┗-cv.py  
-|--input  
-|    |-1.jpg  
-|    ┗-2.jpg  
-┗--output  
-     ┗-result.jpg  
+.
+├─code
+│      cv.py
+│
+├─input
+│      1.jpg
+│      2.jpg
+│
+└─output
+        result.jpg
+
 ## 运行说明
