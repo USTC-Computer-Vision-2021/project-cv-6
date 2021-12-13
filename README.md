@@ -95,3 +95,17 @@ def stitch(imageA,imageB, ratio=0.75, reprojThresh=4.0):
     cv_show('result', result)
     return result
 ````
+
+## 效果展示
+https://github.com/USTC-Computer-Vision-2021/project-cv-6/blob/main/result.jpg?raw=true
+
+## 工程结构
+.
+|--code
+|    ┗-cv.py
+|--input
+|    |-1.jpg
+|    ┗-2.jpg
+┗--output
+     ┗-result.jpg
+## 运行说明
